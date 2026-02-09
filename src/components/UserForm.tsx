@@ -83,6 +83,7 @@ const UserForm = ({ initialData, onSubmit, onCancel }: Props) => {
                                 <input
                                     type={field.type}
                                     value={formData[field.name as keyof User] || ""}
+                                    placeholder={field.placeholder}
                                     onChange={(e) => handleChange(field.name, e.target.value)}
                                 />
                             </div>

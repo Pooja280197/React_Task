@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import UserForm from './userForm';
+import { useEffect, useState } from 'react'
+import UserForm from './UserForm';
 import { createUser, deleteUser, getUsers, updateUser } from '../api/userFormApi';
 import type { User } from '../types/user';
 import UserTable from './UserTable';
