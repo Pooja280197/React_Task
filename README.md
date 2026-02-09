@@ -30,6 +30,21 @@ To add a new form field:
 - Install JSON Server(Mock API) using npx json-server --watch db.json --port 3001
 - Start application using npm run dev
 
+## Mock API Details
+Available API endpoints:
+- GET /users
+- POST /users
+- PUT /users/:id
+- DELETE /users/:id
+
+## UI and UX Decisions
+- The user list is displayed on demand using a button
+- Simple layout for clarity and usability
+
+## Deployment
+The application is deployed on vercel
+Live Demo - https://react-task-snowy-ten.vercel.app/
+
 
 
 
