@@ -1,0 +1,164 @@
+html,
+body {
+  font-family: Arial, sans-serif;
+  background: #eaebee;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-size: x-large;
+  color: rgb(233, 87, 71);
+}
+
+.container {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.userForm {
+  width: 50%;
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.field {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+label {
+  align-self: center;
+  width: 70%;
+  display: block;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+}
+.required {
+  color: red;
+}
+
+button {
+  padding: 8px 14px;
+  margin-right: 8px;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+.show{
+  margin: 20px 40px;
+  padding: 10px 16px;
+  background: #cbcaca;
+  border: 1px solid #ccc;
+  cursor: pointer;
+
+}
+
+.submitButton {
+  background: rgb(233, 87, 71);
+  color: white;
+}
+
+.cancelButton {
+  border: 1px rgb(233, 87, 71) solid;
+  color: rgb(233, 87, 71);
+}
+
+.cancelButton:hover {
+  background: rgb(233, 87, 71);
+  color: white;
+}
+.EditButton {
+  background: rgb(48, 230, 48);
+  color: white;
+}
+
+button.danger {
+  background: #e74c3c;
+  color: white;
+}
+
+button.secondary {
+  background: #ddd;
+}
+.error {
+  color: red;
+  font-size: 0.85rem;
+}
+
+.userTable {
+  width: 90%;
+  border-collapse: collapse;
+  background: #fff;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.userTable th {
+  background-color: rgba(242, 168, 57, 0.948);
+  color: white;
+}
+
+.userTable th,
+.userTable td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.noUsers {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  color: #777;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  width: 300px;
+}
+
+.modal-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
